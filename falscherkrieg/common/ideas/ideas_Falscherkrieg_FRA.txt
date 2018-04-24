@@ -1,0 +1,178 @@
+ideas = {
+
+	country = {
+			FRA_Falscherkrieg_1 = {
+			
+			name = Falscherkrieg_Idea_FRA
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_intervene_in_china
+
+			modifier = {
+				
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.05
+			}
+			targeted_modifier = {
+				tag = BEL
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.05
+			}
+
+			targeted_modifier = {
+				tag = FLN
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.05
+			}
+		}
+
+		FRA_Falscherkrieg_2 = {
+			
+			name = Falscherkrieg_Idea_FRA
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_intervene_in_china
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.2
+				defense_bonus_against = -0.10
+			}
+			targeted_modifier = {
+				tag = BEL
+				attack_bonus_against = -0.2
+				defense_bonus_against = -0.10
+			}
+
+			targeted_modifier = {
+				tag = FLN
+				attack_bonus_against = -0.2
+				defense_bonus_against = -0.10
+			}
+		}
+
+		FRA_Falscherkrieg_3 = {
+			
+			name = Falscherkrieg_Idea_FRA
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_intervene_in_china
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.3
+				defense_bonus_against = -0.15
+			}
+			targeted_modifier = {
+				tag = BEL
+				attack_bonus_against = -0.3
+				defense_bonus_against = -0.15
+			}
+
+			targeted_modifier = {
+				tag = FLN
+				attack_bonus_against = -0.3
+				defense_bonus_against = -0.15
+			}
+		}
+
+		FRA_Falscherkrieg_4 = {
+			
+			name = Falscherkrieg_Idea_FRA
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_intervene_in_china
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.4
+				defense_bonus_against = -0.20
+			}
+			targeted_modifier = {
+				tag = BEL
+				attack_bonus_against = -0.4
+				defense_bonus_against = -0.20
+			}
+
+			targeted_modifier = {
+				tag = FLN
+				attack_bonus_against = -0.4
+				defense_bonus_against = -0.20
+			}
+		}
+
+		FRA_Falscherkrieg_5 = {
+			
+			name = Falscherkrieg_Idea_FRA
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_intervene_in_china
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.5
+				defense_bonus_against = -0.25
+			}
+
+			targeted_modifier = {
+				tag = BEL
+				attack_bonus_against = -0.5
+				defense_bonus_against = -0.25
+			}
+
+			targeted_modifier = {
+				tag = FLN
+				attack_bonus_against = -0.5
+				defense_bonus_against = -0.25
+			}
+		}
+	}
+}

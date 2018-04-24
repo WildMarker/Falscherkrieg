@@ -1,0 +1,96 @@
+GER_Falscherkrieg  = {
+	GER_Falscherkrieg_America = {
+
+		icon = jap_conquer_china
+
+		available = {
+			OR = {
+				has_global_flag = END_ACW
+				has_global_flag = civil_war_avoided
+			}
+		}
+
+		visible = {
+			GER_has_idea_GER_Falscherkrieg = yes
+		}
+		
+		fire_only_once = yes
+
+		cost = 25
+
+		complete_effect = {
+			GER_Falscherkrieg_level_down = yes
+		}
+	}
+
+	GER_Falscherkrieg_Italy = {
+
+		icon = jap_conquer_china
+
+		available = {
+			Falscherkrieg_Check_Italy_Civil_War_Over = yes
+		}
+
+		visible = {
+			GER_has_idea_GER_Falscherkrieg = yes
+		}
+		
+		fire_only_once = yes
+
+		cost = 25
+
+		complete_effect = {
+			GER_Falscherkrieg_level_down = yes
+		}
+	}
+	
+	GER_Falscherkrieg_Rusia = {
+
+		icon = jap_conquer_china
+
+		available = {
+			AND = {
+				date > 1939.1.1
+				Falscherkrieg_Check_Russia_Civil_War_Over = yes
+			}
+		}
+
+		visible = {
+			GER_has_idea_GER_Falscherkrieg = yes
+		}
+		
+		fire_only_once = yes
+
+		cost = 25
+
+		complete_effect = {
+			GER_Falscherkrieg_level_down = yes
+		}
+	}
+	
+	GER_Falscherkrieg_India = {
+
+		icon = jap_conquer_china
+
+		available = {
+			OR = {
+				has_global_flag = END_ACW
+				has_global_flag = civil_war_avoided
+			}
+		}
+
+		visible = {
+			GER_has_idea_GER_Falscherkrieg = yes
+		}
+		
+		fire_only_once = yes
+
+		cost = 25
+
+		complete_effect = {
+			GER_Falscherkrieg_level_down = yes
+		}
+	}
+	
+	
+}

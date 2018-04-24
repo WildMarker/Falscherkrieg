@@ -1,0 +1,133 @@
+#Germany 
+GER_Falscherkrieg_level_down = {
+
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_1 }
+		remove_ideas = GER_Falscherkrieg_1
+	}
+	
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_2 }
+		swap_ideas = {
+			remove_idea = GER_Falscherkrieg_2
+			add_idea = GER_Falscherkrieg_1
+		}
+	}
+	
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_3 }
+		swap_ideas = {
+			remove_idea = GER_Falscherkrieg_3
+			add_idea = GER_Falscherkrieg_2
+		}
+	}
+	
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_4 }
+		swap_ideas = {
+			remove_idea = GER_Falscherkrieg_4
+			add_idea = GER_Falscherkrieg_3
+		}
+	}
+
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_5 }
+		swap_ideas = {
+			remove_idea = GER_Falscherkrieg_5
+			add_idea = GER_Falscherkrieg_4
+		}
+	}
+}
+
+GER_Falscherkrieg_remove = {
+
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_5 }
+		remove_ideas = GER_Falscherkrieg_5
+	}
+	
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_4 }
+		remove_ideas = GER_Falscherkrieg_4
+	}
+	
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_3 }
+		remove_ideas = GER_Falscherkrieg_3
+	}
+	
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_2 }
+		remove_ideas = GER_Falscherkrieg_2
+	}
+	else = {		
+		remove_ideas = GER_Falscherkrieg_1
+	}	
+}
+
+#France
+FRA_Falscherkrieg_level_down = {
+
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_1 }
+		remove_ideas = FRA_Falscherkrieg_1
+	}
+	
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_2 }
+		swap_ideas = {
+			remove_idea = FRA_Falscherkrieg_2
+			add_idea = FRA_Falscherkrieg_1
+		}
+	}
+	
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_3 }
+		swap_ideas = {
+			remove_idea = FRA_Falscherkrieg_3
+			add_idea = FRA_Falscherkrieg_2
+		}
+	}
+	
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_4 }
+		swap_ideas = {
+			remove_idea = FRA_Falscherkrieg_4
+			add_idea = FRA_Falscherkrieg_3
+		}
+	}
+
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_5 }
+		swap_ideas = {
+			remove_idea = FRA_Falscherkrieg_5
+			add_idea = FRA_Falscherkrieg_4
+		}
+	}
+}
+
+FRA_Falscherkrieg_remove = {
+
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_5 }
+		remove_ideas = FRA_Falscherkrieg_5
+	}
+	
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_4 }
+		remove_ideas = FRA_Falscherkrieg_4
+	}
+	
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_3 }
+		remove_ideas = FRA_Falscherkrieg_3
+	}
+	
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_2 }
+		remove_ideas = FRA_Falscherkrieg_2
+	}
+	else = {		
+		remove_ideas = FRA_Falscherkrieg_1
+	}	
+}

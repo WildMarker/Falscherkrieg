@@ -1,0 +1,107 @@
+#Falscherkrieg check for Germany
+
+
+GER_has_idea_GER_Falscherkrieg = { 
+	if = {
+		limit = { has_idea = GER_Falscherkrieg_5 }
+		has_idea = GER_Falscherkrieg_5
+
+		else = {
+			if = {
+				limit = { has_idea = GER_Falscherkrieg_4 }
+				has_idea = GER_Falscherkrieg_4
+				
+				else = {
+					if = {
+						limit = { has_idea = GER_Falscherkrieg_3 }
+						has_idea = GER_Falscherkrieg_3
+					
+						else = {
+							if = {
+								limit = { has_idea = GER_Falscherkrieg_2 }
+								has_idea = GER_Falscherkrieg_2
+								else = {
+									has_idea = GER_Falscherkrieg_1
+								}	
+							}		
+						}
+					}		
+				}
+			}		
+		}
+	}
+}
+
+#Falscherkrieg check for France
+
+FRA_has_idea_FRA_Falscherkrieg = {
+	if = {
+		limit = { has_idea = FRA_Falscherkrieg_5 }
+		has_idea = FRA_Falscherkrieg_5
+
+		else = {
+			if = {
+				limit = { has_idea = FRA_Falscherkrieg_4 }
+				has_idea = FRA_Falscherkrieg_4
+				
+				else = {
+					if = {
+						limit = { has_idea = FRA_Falscherkrieg_3 }
+						has_idea = FRA_Falscherkrieg_3
+					
+						else = {
+							if = {
+								limit = { has_idea = FRA_Falscherkrieg_2 }
+								has_idea = FRA_Falscherkrieg_2
+								else = {
+									has_idea = FRA_Falscherkrieg_1
+								}	
+							}		
+						}
+					}		
+				}
+			}		
+		}
+	}
+}
+
+#Civil wars are over
+
+Falscherkrieg_Check_Russia_Civil_War_Over = {
+	custom_trigger_tooltip = {
+		tooltip = Falscherkrieg_Check_Russia_Unified
+		NOT = {
+			has_global_flag = RUS_CIVIL_WAR
+		}
+	}
+}
+
+Falscherkrieg_Check_Italy_Civil_War_Over = {
+#	custom_trigger_tooltip = {
+			any_country = {
+				OR = {
+					tag = ITA
+					tag = PAP
+					tag = SIC
+					tag = SRI
+				}
+				controls_state = 2
+				controls_state = 114
+				controls_state = 117
+				controls_state = 158
+				controls_state = 159
+				controls_state = 160
+			}
+		
+		#tooltip = Falscherkrieg_Check_Italy_Unified
+#	}
+}
+
+Falscherkrieg_Check_India_Civil_War_Over = {
+	custom_trigger_tooltip = {
+		tooltip = Falscherkrieg_Check_India_Civil_War_Over
+		NOT = {
+			has_global_flag = RUS_CIVIL_WAR
+		}
+	}
+}

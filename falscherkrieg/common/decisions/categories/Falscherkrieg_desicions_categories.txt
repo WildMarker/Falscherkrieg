@@ -1,0 +1,21 @@
+GER_Falscherkrieg = {
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		original_tag = GER
+	}
+}
+
+FRA_Falscherkrieg = {
+
+	allowed = {
+		original_tag = FRA
+	}
+
+	visible = {
+		original_tag = FRA
+	}
+}

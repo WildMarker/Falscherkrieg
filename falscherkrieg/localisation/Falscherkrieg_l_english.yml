@@ -1,0 +1,35 @@
+﻿l_english:
+ 
+ ### Tooltips ###
+ Falscherkrieg_Idea_GER:0 "Falscherkrieg Germany"
+ Falscherkrieg_Idea_GER_desc:0 "Falscherkrieg Germany description"
+ Falscherkrieg_Idea_FRA:0 "Falscherkrieg France"
+ Falscherkrieg_Idea_FRA_desc:0 "Falscherkrieg France description"
+ Falscherkrieg_Check_Italy_Unified:0 "Italy is unified."
+ Falscherkrieg_Check_Russia_Unified:0 "The Russian civil war is over or has been prevented."
+ Falscherkrieg_Check_India_Unified:0 "India is unified."
+ Falscherkrieg_Check_Spain_Unified:0 "The Spanish civil war is over or has been prevented."
+ 
+ ### Decisions ###
+ GER_Falscherkrieg:0 "Falscherkrieg Test Desicion"
+ GER_Falscherkrieg_desc:0 "This is the Falscherkrieg Test Desicion. Hurray!"
+ GER_Falscherkrieg_America:0 "Falscherkrieg America Test Desicion"
+ GER_Falscherkrieg_America_desc:0 "This is the Falscherkrieg Test Desicion. Hurray!"
+ GER_Falscherkrieg_Italy:0 "Falscherkrieg Italy Test Desicion"
+ GER_Falscherkrieg_Italy_desc:0 "This is the Falscherkrieg Test Desicion. Hurray!"
+ GER_Falscherkrieg_Russia:0 "Falscherkrieg Russia Test Desicion"
+ GER_Falscherkrieg_Russia_desc:0 "This is the Falscherkrieg Test Desicion. Hurray!"
+ GER_Falscherkrieg_India:0 "Falscherkrieg India Test Desicion"
+ GER_Falscherkrieg_India_desc:0 "This is the Falscherkrieg Test Desicion. Hurray!"
+ GER_Falscherkrieg_Spain:0 "Falscherkrieg Spain Test Desicion"
+ GER_Falscherkrieg_Spain_desc:0 "This is the Falscherkrieg Test Desicion. Hurray!"
+
+ ### Events ###
+ falscherkrieg.1.t:0 "Falscherkrieg setup"
+ falscherkrieg.1.d:0 "Falscherkrieg setup for Germany"
+ falscherkrieg.1.a:0 "Oh yeah baby"
+ falscherkrieg.2.t:0 "Falscherkrieg setup"
+ falscherkrieg.2.d:0 "Falscherkrieg setup for France"
+ falscherkrieg.2.a:0 "Oh yeah baby"
+
+
