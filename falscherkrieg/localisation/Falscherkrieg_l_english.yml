@@ -25,11 +25,11 @@
  GER_Falscherkrieg_Spain_desc:0 "This is the Falscherkrieg Test Desicion. Hurray!"
 
  ### Events ###
- falscherkrieg.1.t:0 "Falscherkrieg setup"
- falscherkrieg.1.d:0 "Falscherkrieg setup for Germany"
- falscherkrieg.1.a:0 "Oh yeah baby"
- falscherkrieg.2.t:0 "Falscherkrieg setup"
- falscherkrieg.2.d:0 "Falscherkrieg setup for France"
- falscherkrieg.2.a:0 "Oh yeah baby"
+ falscherkrieg.1.t:0 "The Falscherkrieg"
+ falscherkrieg.1.d:0 "For the past two decades, the leadership of Germany has seen the rise of Syndicalism at their borders, and they know war is inevitable. However the people of Germany have no desire for another round of food shortages and trench warfare, and so they are not ready for what must be done. We must focus instead on solving the conflicts abroad, lest we are drowned in a sea of red by the time the war starts. The people will slowly come around, once the world starts picking sides."
+ falscherkrieg.1.a:0 "Wherever they rise, our boot will crush them!"
+ falscherkrieg.2.t:0 "The Falscherkrieg"
+ falscherkrieg.2.d:0 "For the past two decades, syndicalist fervor has been ever rising. The leadership knows that war with Germany is inevitable, but the population still remembers the horrors of the first Weltkrieg and they're in no rush to risk repeating them. We must instead focus our effort on growing the Internationale by supporting the syndicalist cause abroad. The world is about to pick sides, and once they do, the Germans shall drown in a red tide."
+ falscherkrieg.2.a:0 "Wherever the workers call, France shall answer!"
 
 
